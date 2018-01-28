@@ -1,0 +1,26 @@
+{
+  "name": "gh-profile-viewer",
+  "version": "0.1.0",
+  "description": "Get and display github user profile info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d app"
+  },
+  "author": "Fyodor Loenko",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.*",
+    "babel-loader": "^7.1.2",
+    "prop-types": "^15.6.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "homepage": "https://loenko.github.io/gh-profile-viewer"
+}
